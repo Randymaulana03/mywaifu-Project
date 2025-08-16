@@ -1,0 +1,39 @@
+body { font-family: Arial, sans-serif; padding: 20px; }
+    h1 { text-align: center; }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+      gap: 15px;
+      margin-top: 10px;
+      /* border: 2px solid black; */
+    }
+    .card {
+      border: 1px solid #ccc;
+      text-align: center;
+      background: #fff;
+      border-radius: 8px;
+      transition: 0.2s;
+      /* border: 2px solid black; */
+      text-decoration: none;
+      color: black;
+      
+
+
+
+    }
+    .card h3 {
+        padding: 2px;
+    }
+    .card p {
+        padding: 3px;
+    }
+    
+    .card:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .card img {
+      width: 100%;
+      height: auto;
+      border-radius: 6px;
+    }
