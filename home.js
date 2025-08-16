@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
   const charList = document.getElementById("char-list");    
     
-    fetch("data-karakter.json")
+    fetch("https://cdn.jsdelivr.net/gh/Randymaulana03/mywaifu-Project@main/data-karakter.json")
       .then(res => res.json())
       .then(data => {
         const list = document.getElementById("char-list");
@@ -27,3 +27,4 @@ document.addEventListener("DOMContentLoaded", () => {
 
   
 })
+
